@@ -1,4 +1,4 @@
-import * as Styled from ".././styled"
+import * as Styled from "../styled"
 import { CardNoticiaProps } from "./types"
 
 export function CardNoticia({ image, title, date, descriptionCurto, setModal }: CardNoticiaProps) {

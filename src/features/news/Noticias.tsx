@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { AssinarImage, CloseButton as Close } from "../../assets";
 import { obterNoticias } from "./fakeRest";
 import { formatTitle, formatTime } from "./format";
-import { CardNoticia } from "./CardNoticia";
+import { CardNoticia } from "./CardNews";
 import { Modal } from "./Modal";
 import { ModalSubscribe } from "./ModalSubscribe";
 
